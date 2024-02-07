@@ -2,7 +2,7 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Serenity8888/.github.io/Team6-CodeGG-Simply-Chocolate",
+  "homepage": "https://Serenity8888.github.io/Team6-CodeGG-Simply-Chocolate",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /Team6-CodeGG-Simply-Chocolate/"
@@ -18,8 +18,10 @@
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
+    "@vimeo/player": "^2.21.0",
+    "lodash.throttle": "^4.1.1",
     "modern-normalize": "^1.1.0",
-    "swiper": "^11.0.5"
+    "simplelightbox": "^2.14.2"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
